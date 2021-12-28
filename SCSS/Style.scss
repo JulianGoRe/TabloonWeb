@@ -5,8 +5,97 @@
 }
 
 header {
-  position: sticky;
+  position: sticky !important;
   top: 0;
   box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.15);
   z-index: 1;
+}
+
+#navBar a {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #324d5b;
+}
+
+.carousel-inner img {
+  max-height: 46.4rem;
+}
+
+#intro section {
+  background-color: #324d5b;
+}
+
+.productosTabloon {
+  width: 100% !important;
+  text-align: center;
+  justify-content: center;
+}
+
+.text-light {
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: #299d00;
+  min-height: 100px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+#iconosFooter i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.columna {
+  width: 100%;
+}
+
+.lista {
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  margin: 0 0 0 20px;
+}
+
+.elemento {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #324d5b;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.cardsProductos {
+  overflow: hidden;
 }
