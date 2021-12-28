@@ -1,0 +1,14 @@
+{
+  "name": "proyecto_final_tabloon_web-julian_gomez_restrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/Style.scss css/style.css"
+  },
+  "author": "Julian Gomez Restrepo",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.45.1"
+  }
+}
