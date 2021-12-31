@@ -44,6 +44,9 @@
       rel="stylesheet"
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <!-- Titulo Página -->
 
     <title>Tabloon | ¿Quienes somos?</title>
@@ -100,33 +103,35 @@
       </nav>
     </header>
 
-    <img src="../IMAGENES/BannerQuienesSomos.png" class="img-fluid" alt="" />
+<!--Banner-->
+
+    <img data-aos="zoom-out" src="../IMAGENES/BannerQuienesSomos.png" class="img-fluid" alt="" />
 
     <div class="text-center">
-    <img src="../IMAGENES/Quienes somos.png" class="py-5 img-fluid " alt="" />
+    <img data-aos="zoom-in" data-aos-duration="3000" src="../IMAGENES/Quienes somos.png" class="py-5 img-fluid " alt="" />
     </div>
 
     <div class="text-center fst-italic my-5">
-        <h2>SOMOS UNA MICRO EMPRESA QUE NACE CON EL FIN DE BUSCAR UNA ALTERNATIVA DE DECORACIÓN PERSONALIZADA</h2>
+        <h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">SOMOS UNA MICRO EMPRESA QUE NACE CON EL FIN DE BUSCAR UNA ALTERNATIVA DE DECORACIÓN PERSONALIZADA</h2>
 
     </div>
     
     <div class="text-center fst-italic">
-        <h2>"El diseño es el alma de todo lo creado por el hombre"</h2>
-        <h3>Steve Jobs</h3>
+        <h2 data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">"El diseño es el alma de todo lo creado por el hombre"</h2>
+        <h3 data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">Steve Jobs</h3>
 
     </div>
 
     
-    <div class="text-center">
-        <img src="../IMAGENES/Julian.png" class="py-5 img-fluid " alt="" />
+    <div class="imgCreadores text-center">
+        <img data-aos="flip-up" data-aos-offset="300" src="../IMAGENES/Julian.png" class="py-5 img-fluid " alt="" />
     </div>
 
 
     <div class="text-center">
-        <h2 clas>Julian Gómez Restrepo</h2>
-        <h3>ING. EN INFORMÁTICA</h3>
-        <h3>DISEÑADOR UX/UI/WEB</h3>
+        <h2 data-aos="fade-right">Julian Gómez Restrepo</h2>
+        <h3 data-aos="fade-left">ING. EN INFORMÁTICA</h3>
+        <h3 data-aos="fade-right">DISEÑADOR UX/UI/WEB</h3>
 
 
 
@@ -169,7 +174,11 @@
   integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
   crossorigin="anonymous"
 ></script>
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
     </body>
     </html>

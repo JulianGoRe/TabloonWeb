@@ -46,6 +46,9 @@
       rel="stylesheet"
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <!-- Titulo Página -->
 
     <title>Tabloon | FAQ</title>
@@ -104,10 +107,10 @@
 
 <!--Banner-->
 
-<img src="../IMAGENES/BannerFAQ.png" class="img-fluid" alt="" />
+<img data-aos="zoom-out" src="../IMAGENES/BannerFAQ.png" class="img-fluid" alt="" />
 
 
-<div class="container py-5">
+<div data-aos="zoom-in-up" data-aos-duration="3000" class="container py-5">
     <div class="row">
         <div class="col">
 
@@ -216,5 +219,8 @@
   crossorigin="anonymous"
 ></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
     </body>
     </html>

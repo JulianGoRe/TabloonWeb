@@ -44,6 +44,9 @@
       rel="stylesheet"
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <!-- Titulo Página -->
 
     <title>Tabloon | Retablos personalizados</title>
@@ -98,7 +101,9 @@
     </header>
 
     <!--CARRUSEL-->
-    <div
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"
       id="carouselExampleSlidesOnly"
       class="carousel slide"
       data-bs-ride="carousel"
@@ -119,7 +124,7 @@
     <!--CONOCE NUESTROS PRODUCTOS-->
 
     <section class="W-50 mx-auto text-center bg-success" id="intro">
-      <h1 class="text-light fs-1">¡CONOCE NUESTROS PROUCTOS!</h1>
+      <h1 data-aos="flip-up" class="text-light fs-1">¡CONOCE NUESTROS PROUCTOS!</h1>
     </section>
 
     <!--PRODUCTOS-->
@@ -127,10 +132,10 @@
 
     <section class="cardsProductos">
     
-    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="primeraImagen row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card">
-            <img src="./IMAGENES/1.Tres Tabloones.png" class="card-img-top" alt="">
+            <img data-aos="fade-right" src="./IMAGENES/1.Tres Tabloones.png" class="card-img-top" alt="">
             <div class="card-body">
               </div>
           </div>
@@ -141,7 +146,7 @@
 
         <div class="col">
           <div class="card">
-            <img src="./IMAGENES/2.Tres Tabloones Medianos.png" class="card-img-top" alt="">
+            <img data-aos="fade-left" src="./IMAGENES/2.Tres Tabloones Medianos.png" class="card-img-top" alt="">
             <div class="card-body">
               </div>
           </div>
@@ -151,7 +156,7 @@
 
         <div class="col">
           <div class="card">
-            <img src="./IMAGENES/3.Tabloon Quintuple.png" class="card-img-top" alt="">
+            <img data-aos="fade-right" src="./IMAGENES/3.Tabloon Quintuple.png" class="card-img-top" alt="">
             <div class="card-body">
               </div>
           </div>
@@ -161,7 +166,7 @@
 
         <div class="col">
           <div class="card">
-            <img src="./IMAGENES/4.Tabloon Mediano.png" class="card-img-top" alt="">
+            <img data-aos="fade-left" src="./IMAGENES/4.Tabloon Mediano.png" class="card-img-top" alt="">
             <div class="card-body">
               </div>
           </div>
@@ -172,7 +177,7 @@
 
     <div class="col">
         <div class="card">
-          <img src="./IMAGENES/5.Tabloon 20x70.png" class="card-img-top" alt="">
+          <img data-aos="fade-right" src="./IMAGENES/5.Tabloon 20x70.png" class="card-img-top" alt="">
           <div class="card-body">
             </div>
         </div>
@@ -183,7 +188,7 @@
 
     <div class="col">
         <div class="card">
-          <img src="./IMAGENES/6.Tabloon 20x60.png" class="card-img-top" alt="">
+          <img data-aos="fade-left" src="./IMAGENES/6.Tabloon 20x60.png" class="card-img-top" alt="">
           <div class="card-body">
             </div>
         </div>
@@ -194,7 +199,7 @@
 
     <div class="col">
         <div class="card">
-          <img src="./IMAGENES/7.Tabloon 20x50.png" class="card-img-top" alt="">
+          <img data-aos="fade-right" src="./IMAGENES/7.Tabloon 20x50.png" class="card-img-top" alt="">
           <div class="card-body">
             </div>
         </div>
@@ -205,7 +210,7 @@
 
     <div class="col">
         <div class="card">
-          <img src="./IMAGENES/8.Tabloon 25x20.png" class="card-img-top" alt="">
+          <img data-aos="fade-left" src="./IMAGENES/8.Tabloon 25x20.png" class="card-img-top" alt="">
           <div class="card-body">
             </div>
         </div>
@@ -249,6 +254,10 @@
   crossorigin="anonymous"
 ></script>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
   </body>
 </html>

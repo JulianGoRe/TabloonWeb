@@ -44,6 +44,9 @@
       rel="stylesheet"
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <!-- Titulo Página -->
 
     <title>Tabloon | Contacto</title>
@@ -102,11 +105,11 @@
 
     <!--Banner-->
 
-    <img src="../IMAGENES/BannerContacto.png" class="img-fluid" alt="" />
+    <img data-aos="zoom-out" src="../IMAGENES/BannerContacto.png" class="img-fluid" alt="" />
 
     <!---Formulario-->
 
-    <div class="Formulario container py-5">
+    <div data-aos="zoom-in-up" data-aos-duration="3000" class="Formulario container py-5">
         <div class="row">
             <div class="imagenFormulario col">
                 <div class="text-end">
@@ -223,6 +226,10 @@
   crossorigin="anonymous"
 ></script>
 
-    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+<script>
+    AOS.init();
+  </script> 
+
   </body>
 </html>

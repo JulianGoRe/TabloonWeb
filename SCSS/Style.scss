@@ -109,3 +109,8 @@ svg {
     padding: 50px;
   }
 }
+
+.imgCreadores:hover {
+  transition: 2s;
+  transform: rotateZ(360deg);
+}
