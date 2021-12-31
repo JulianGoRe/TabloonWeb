@@ -100,4 +100,14 @@ svg {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .imagenFormulario {
+    display: none;
+  }
+
+  .Formulario {
+    padding: 50px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
